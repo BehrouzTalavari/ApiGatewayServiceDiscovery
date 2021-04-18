@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication.Ocelot", "WebApplication.Ocelot\WebApplication.Ocelot.csproj", "{E952F6CC-4846-48E6-A6EC-BB16938AC138}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi013", "WebApi013\WebApi013.csproj", "{E05E8716-4A2A-4A35-B65F-D2E9C0094D57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E952F6CC-4846-48E6-A6EC-BB16938AC138}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E952F6CC-4846-48E6-A6EC-BB16938AC138}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E952F6CC-4846-48E6-A6EC-BB16938AC138}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E952F6CC-4846-48E6-A6EC-BB16938AC138}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E05E8716-4A2A-4A35-B65F-D2E9C0094D57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E05E8716-4A2A-4A35-B65F-D2E9C0094D57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E05E8716-4A2A-4A35-B65F-D2E9C0094D57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E05E8716-4A2A-4A35-B65F-D2E9C0094D57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E50D7731-BFE0-41F7-807D-9EDF9FEB1A9A}
+	EndGlobalSection
+EndGlobal
