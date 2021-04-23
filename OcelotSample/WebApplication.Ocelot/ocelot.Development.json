@@ -2,19 +2,23 @@
   "Routes": [
     {
       "DownstreamPathTemplate": "/WeatherForecast",
-      "DownstreamScheme": "https",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": 44356
-        }
-      ],
-      "UpstreamPathTemplate": "/GetWether",
-      "UpstreamHttpMethod": [ "Get" ]
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/weather",
+      "UpstreamHttpMethod": [ "Get", "Put", "Post", "Delete" ],
+      "ServiceName": "SampleAPI",
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      }
     }
-
   ],
+
   "GlobalConfiguration": {
-    "BaseUrl": "http://localhost:5010"
+    "ServiceDiscoveryProvider": {
+      "Scheme": "http",
+      "Host": "127.0.0.1",
+      "Port": 8500,
+      "Type": "Consul",
+      "PollingInterval": 100
+    }
   }
 }

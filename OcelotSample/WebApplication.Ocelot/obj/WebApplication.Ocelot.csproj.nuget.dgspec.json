@@ -45,7 +45,15 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Consul": {
+              "target": "Package",
+              "version": "[1.6.1.1, )"
+            },
             "Ocelot": {
+              "target": "Package",
+              "version": "[17.0.0, )"
+            },
+            "Ocelot.Provider.Consul": {
               "target": "Package",
               "version": "[17.0.0, )"
             },

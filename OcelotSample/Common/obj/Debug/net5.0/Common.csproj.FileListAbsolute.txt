@@ -1,0 +1,12 @@
+G:\Projects\ApiGatewayServiceDiscovery\ApiGatewayServiceDiscovery\OcelotSample\Common\bin\Debug\net5.0\Common.deps.json
+G:\Projects\ApiGatewayServiceDiscovery\ApiGatewayServiceDiscovery\OcelotSample\Common\bin\Debug\net5.0\Common.dll
+G:\Projects\ApiGatewayServiceDiscovery\ApiGatewayServiceDiscovery\OcelotSample\Common\bin\Debug\net5.0\ref\Common.dll
+G:\Projects\ApiGatewayServiceDiscovery\ApiGatewayServiceDiscovery\OcelotSample\Common\bin\Debug\net5.0\Common.pdb
+G:\Projects\ApiGatewayServiceDiscovery\ApiGatewayServiceDiscovery\OcelotSample\Common\obj\Debug\net5.0\Common.csprojAssemblyReference.cache
+G:\Projects\ApiGatewayServiceDiscovery\ApiGatewayServiceDiscovery\OcelotSample\Common\obj\Debug\net5.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+G:\Projects\ApiGatewayServiceDiscovery\ApiGatewayServiceDiscovery\OcelotSample\Common\obj\Debug\net5.0\Common.AssemblyInfoInputs.cache
+G:\Projects\ApiGatewayServiceDiscovery\ApiGatewayServiceDiscovery\OcelotSample\Common\obj\Debug\net5.0\Common.AssemblyInfo.cs
+G:\Projects\ApiGatewayServiceDiscovery\ApiGatewayServiceDiscovery\OcelotSample\Common\obj\Debug\net5.0\Common.csproj.CoreCompileInputs.cache
+G:\Projects\ApiGatewayServiceDiscovery\ApiGatewayServiceDiscovery\OcelotSample\Common\obj\Debug\net5.0\Common.dll
+G:\Projects\ApiGatewayServiceDiscovery\ApiGatewayServiceDiscovery\OcelotSample\Common\obj\Debug\net5.0\ref\Common.dll
+G:\Projects\ApiGatewayServiceDiscovery\ApiGatewayServiceDiscovery\OcelotSample\Common\obj\Debug\net5.0\Common.pdb

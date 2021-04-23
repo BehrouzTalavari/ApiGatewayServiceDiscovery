@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Hgo4Ux9UG9Yjekfy4zE30ovhJKjrXvG2C1YkhIaTHj6e1OeRfNUBR+pGymsN/RgfIP3kjOt+izDQ43as2XK7XQ==",
+  "dgSpecHash": "628/2WvlzsRiDymD3lKHAaRsGmPtJp5cnmdrTFBvtrpsveRfPiotQ+4MIAq8nhNhbg63ulcrtPeYd+secB6YZg==",
   "success": true,
   "projectFilePath": "G:\\Projects\\ApiGatewayServiceDiscovery\\ApiGatewayServiceDiscovery\\OcelotSample\\WebApplication.Ocelot\\WebApplication.Ocelot.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Behrouz\\.nuget\\packages\\consul\\1.6.1.1\\consul.1.6.1.1.nupkg.sha512",
     "C:\\Users\\Behrouz\\.nuget\\packages\\fluentvalidation\\9.3.0\\fluentvalidation.9.3.0.nupkg.sha512",
     "C:\\Users\\Behrouz\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\5.0.0\\microsoft.aspnetcore.jsonpatch.5.0.0.nupkg.sha512",
     "C:\\Users\\Behrouz\\.nuget\\packages\\microsoft.aspnetcore.middlewareanalysis\\5.0.0\\microsoft.aspnetcore.middlewareanalysis.5.0.0.nupkg.sha512",
@@ -16,6 +17,7 @@
     "C:\\Users\\Behrouz\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
     "C:\\Users\\Behrouz\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "C:\\Users\\Behrouz\\.nuget\\packages\\ocelot\\17.0.0\\ocelot.17.0.0.nupkg.sha512",
+    "C:\\Users\\Behrouz\\.nuget\\packages\\ocelot.provider.consul\\17.0.0\\ocelot.provider.consul.17.0.0.nupkg.sha512",
     "C:\\Users\\Behrouz\\.nuget\\packages\\swashbuckle.aspnetcore\\6.1.1\\swashbuckle.aspnetcore.6.1.1.nupkg.sha512",
     "C:\\Users\\Behrouz\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.1.1\\swashbuckle.aspnetcore.swagger.6.1.1.nupkg.sha512",
     "C:\\Users\\Behrouz\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.1.1\\swashbuckle.aspnetcore.swaggergen.6.1.1.nupkg.sha512",
