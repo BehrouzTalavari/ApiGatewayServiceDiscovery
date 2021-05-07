@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GNFZnsiXebYMSXEjHdY71Ly2hwWKjh7Qz/1/RUCBYhEvbJ/8vRGyi+cvNOKlVyvfZ8rNDyjTstq2C/hWNyLRQg==",
+  "dgSpecHash": "X6rttuUF25q3rMETmatFAPBvq3ZDeq7HnzPDtRa0eVxCWymifx5u/uWImPrMgqDXmaIMUdmsYttcjZuDoLl8Xg==",
   "success": true,
   "projectFilePath": "G:\\Projects\\ApiGatewayServiceDiscovery\\ApiGatewayServiceDiscovery\\OcelotSample\\Common\\Common.csproj",
   "expectedPackageFiles": [

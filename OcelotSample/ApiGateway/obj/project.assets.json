@@ -929,6 +929,7 @@
         "C:\\Nuget": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files (x86)\\Progress\\Telerik UI for Blazor 2.22.0\\packages": {},
+        "http://tfsapp.ksc.net:8080/tfs/TFSKSCCollection/_packaging/NugetPackageFeed/nuget/v3/index.json": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

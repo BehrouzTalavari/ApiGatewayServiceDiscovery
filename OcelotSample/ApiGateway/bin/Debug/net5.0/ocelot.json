@@ -3,15 +3,51 @@
   "Routes": [
     {
       "UseServiceDiscovery": true,
-      "DownstreamPathTemplate": "/WeatherForecast",
+      "DownstreamPathTemplate": "/PersonData?id={id}",
       "DownStreamScheme": "http",
-      "ServiceName": "forcastService",
+      "ServiceName": "persondataservice",
       "LoadBalancerOptions": {
         "Type": "RoundRobin"
       },
-      "UpstreamPathTemplate": "/ss",
+      "UpstreamPathTemplate": "/Person/{id}",
       "UpstreamHttpMethod": [ "Get" ],
-      "ReRoutesCasesensitive": false
+      "ReRoutesCasesensitive": false,
+      "Key": "a"
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/SalaryData?id={id}",
+      "DownStreamScheme": "http",
+      "ServiceName": "persondataservice",
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin"
+      },
+      "UpstreamPathTemplate": "/Salary/{id}",
+      "UpstreamHttpMethod": [ "Get" ],
+      "ReRoutesCasesensitive": false,
+      "Key": "b"
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/SuplierData",
+      "DownStreamScheme": "http",
+      "ServiceName": "SuplierService",
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin"
+      },
+      "UpstreamPathTemplate": "/Supliers",
+      "UpstreamHttpMethod": [ "Get" ],
+      "ReRoutesCasesensitive": false,
+      "Key": "c"
+    }
+  ],
+  "Aggregates": [
+    {
+      "RouteKeys": [
+        "a",
+        "b"
+      ],
+      "UpstreamPathTemplate": "/AggregatePersonData/{id}"
     }
   ],
   "GlobalConfiguration": {
