@@ -1,4 +1,4 @@
-# ApiGatewayServiceDiscovery
+# Api Gateway Service Discovery + Identity Server 4 
 Api Gateway : Ocelot, Service Discovery:consul Sample
 
 Before running The project  
