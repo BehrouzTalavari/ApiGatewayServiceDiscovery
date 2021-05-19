@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "cRpzgfyryIHrByyiL3kTG3udnVbnp4MBrMFFYtwTQLcYQ9KL/F0ATsVf+YJDg8yI1YR4V0uwc+m9fH3yJ3KMEA==",
+  "dgSpecHash": "qrxvzLiOG1SGAdZIv2Rp9r/b55RJsVSN6p5urLZQMmLpnsDcUlMosiDVd/sY+o5hKJGmdzkyig3tclxVTYLeFQ==",
   "success": true,
   "projectFilePath": "G:\\Projects\\ApiGatewayServiceDiscovery\\ApiGatewayServiceDiscovery\\OcelotSample\\PIMAPI\\PIMAPI.csproj",
   "expectedPackageFiles": [

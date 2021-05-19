@@ -39,6 +39,37 @@
       "UpstreamHttpMethod": [ "Get" ],
       "ReRoutesCasesensitive": false,
       "Key": "c"
+    },
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/CachedPersonData",
+      "DownStreamScheme": "http",
+      "ServiceName": "personCacheservice",
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin"
+      },
+      "UpstreamPathTemplate": "/CachedData",
+      "UpstreamHttpMethod": [ "Get" ],
+      "ReRoutesCasesensitive": false,
+      "Key": "d",
+      "FileCacheOptions": { "TtlSeconds": 15 }
+    },
+    {
+      "FileCacheOptions": { "TtlSeconds": 60 },
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/WeatherForecast",
+      "DownstreamScheme": "https",
+      "ServiceName": "IdentityAPISample",
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin"
+      },
+      "UpstreamPathTemplate": "/GetWeather",
+      "UpstreamHttpMethod": [ "GET" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "IdentityApiKey",
+        "AllowedScopes": []
+      },
+      "Key": "e"
     }
   ],
   "Aggregates": [
@@ -54,7 +85,8 @@
     "ServiceDiscoveryProvider": {
       "Host": "localhost",
       "Port": 8500,
-      "Type": "Consul"
+      "Type": "PollConsul",
+      "PollingInterval": 5000
     }
   }
 }

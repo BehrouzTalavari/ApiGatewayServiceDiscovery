@@ -1,7 +1,14 @@
 {
   "ExpandedNodes": [
     "",
-    "\\OcelotSample"
+    "\\OcelotSample",
+    "\\OcelotSample\\PIMAPI",
+    "\\OcelotSample\\PIMAPI\\Controllers",
+    "\\OcelotSample\\WebApi013",
+    "\\OcelotSample\\WebApiService01",
+    "\\OcelotSample\\WebApiService01\\Controllers",
+    "\\OcelotSample\\WebApplication.Ocelot",
+    "\\OcelotSample\\WebApplication.Ocelot\\Controllers"
   ],
   "SelectedNode": "\\OcelotSample\\OcelotSample.sln",
   "PreviewInSolutionExplorer": false
